@@ -1,0 +1,15 @@
+#org @start
+lock
+applymovement PLAYER, @walkUp
+waitmovement 0
+fanfare 0x10E
+msgbox "A strange power flows through the shrine..."
+msgbox "A vision of Solerion and Nocturnox flashes before your eyes!"
+fanfare 0x13E
+waitfanfare
+release
+end
+
+#org @walkUp
+#raw 0x10
+#raw 0xFE
