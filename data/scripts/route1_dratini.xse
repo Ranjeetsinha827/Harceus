@@ -1,0 +1,9 @@
+#org @start
+lock
+msgbox "A rare Dratini appeared from the water!"
+givepokemon 147 5 0 0 0 0
+fanfare 0x13E
+waitfanfare
+msgbox "You caught a mysterious Dratini!"
+release
+end
