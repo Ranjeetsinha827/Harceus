@@ -1,0 +1,6 @@
+#org @start
+lock
+faceplayer
+msgbox "Welcome to the Harceus Region! Choose your starter wisely!"
+release
+end
