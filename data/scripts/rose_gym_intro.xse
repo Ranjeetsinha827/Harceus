@@ -1,0 +1,8 @@
+#org @start
+lock
+faceplayer
+msgbox "Welcome to the Rose City Gym!"
+msgbox "I’m Liana, the Blossom Fighter. I specialize in Grass and Fairy types."
+msgbox "Let’s see if you can bloom under pressure!"
+release
+end
