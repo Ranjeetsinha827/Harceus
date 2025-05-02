@@ -1,0 +1,7 @@
+#org @start
+lock
+faceplayer
+msgbox "We are Team Eclipse. We control the stars and the void."
+msgbox "Soon... the Void Heart shall awaken!"
+release
+end
