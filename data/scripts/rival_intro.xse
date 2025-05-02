@@ -1,0 +1,7 @@
+#org @start
+lock
+faceplayer
+msgbox "Hey! I'm your rival, but also your best buddy!"
+msgbox "Let's both become Pokémon Masters!"
+release
+end
