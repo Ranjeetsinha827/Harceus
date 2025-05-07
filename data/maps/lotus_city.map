@@ -1,0 +1,6 @@
+#org @start
+lock
+faceplayer
+msgbox "Welcome to Lotus City.\nMany trainers pass here after trials."
+release
+end
