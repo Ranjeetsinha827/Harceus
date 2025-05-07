@@ -1,0 +1,21 @@
+#org @start
+lock
+faceplayer
+msgbox "Halt! No one enters Eclipse Cave without clearance."
+sound 0x15
+msgbox "Unless... you want a battle?"
+applymovement 0x2 @grunts
+waitmovement 0x0
+trainerbattle 0x0 0x1E 0x0 @wintext @losetext
+msgbox "Tch... lucky brat. We'll report this!"
+fadescreen 0x1
+hidesprite 0x2
+fadescreen 0x0
+release
+end
+
+#org @wintext
+= Hmph... you win.
+
+#org @losetext
+= This can't be!
